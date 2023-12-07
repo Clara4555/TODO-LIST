@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-LIST</title>
+    <link rel="stylesheet" href="style/todolist.css">
+   <link rel ="stylesheet" href =" https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    
+<body>
+   
+
+    <div class="list-con">
+        <h1>TODO-LIST</h1>
+        <div class="input-con">
+        <ion-icon name="create-outline"></ion-icon>
+        <input type="text" placeholder="Enter Task for Today">
+        </div>
+        <div class="task-controls">
+            <div class="filters">
+                <span class="active" id="all">ALL Task</span>
+                <span id="pending">Not done</span>
+                <span  id="completed">Completed task</span>
+
+            </div>
+            <button class="clear-btn">Clear 
+        </div>
+        <ul class="task-box"></ul>
+    </div>
+        <script src="javascript/todolist.js"></script>
+    
+</body>
+</html>
